@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Taskia - Task Management Tool</title>
+</head>
+
+<body>
+
+    <!-- Header section -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-white ">
+        <div class="container">
+            <a class="navbar-brand logo-font" href="#">Taskia</a>
+            <button class="btn btn-outline-primary rounded-pill px-4 py-2">Try Free</button>
+        </div>
+    </nav>
+        
+    <!-- hero section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="hero-title hero-font">Task Management<br>and lists Tool</h1>
+                    <p class="hero-description hero-font-light">We believe that designing products and services in close partnership with our client is the only way to have a real impact on their business.</p>
+                    <div class="email-signup d-flex">
+                        <input type="email" class="form-control rounded-pill me-2" placeholder="Name@company.com" id="heroEmail">
+                        <button class="btn btn-primary rounded-pill px-5 py-2" onclick="handleSignup('heroEmail')">Try it free</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="Images/guy and girl pic.jpg" alt="Dashboard preview" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- features -->
+    <section class="featured-section">
+        <div class="container">
+            <h2 class="section-title hero-font text-center mb-5">Featured Service that we provide</h2>
+            
+            <div class="row g-4 justify-content-center featured-row">
+                
+                <div class="col-auto">
+                    <div class="card service-card card-blue mt-0">
+                        <img src="Images/tea cup.png" alt="service-One" class="service-img">
+                        <h5>Keep Tasks in one place</h5>
+                        <p>Save time,avoid losing work and information, delegate, and track tasks ti stay on schedule</p>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="card service-card card-green mt-5">
+                        <img src="Images/pouch.png" alt="service-two" class="service-img">
+                        <h5>Keep Tasks in one place</h5>
+                        <p>Save time,avoid losing work and information, delegate, and track tasks ti stay on schedule</p>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="card service-card card-yellow mt-3">
+                        <img src="Images/tool.png" alt="service-three" class="service-img">
+                        <h5>Keep Tasks in one place</h5>
+                        <p>Save time,avoid losing work and information, delegate, and track tasks ti stay on schedule</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+             <!--content section 1  -->
+    <section class=" content-section why-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-center mb-4 mb-lg-0">
+                        <img src="Images/example image.jpg" alt="Task Organization" class="img-fluid rounded-4">
+                    </div>
+                    <div class="col-lg-6 ps-lg-5">
+                        <h2 class="section-heading hero-font">Why do you need<br>taks management</h2>
+                        <p class="section-description ">
+                            Do you waste time origanizing sticky notes, searching your emails and apps for to-dos. and figuring out what to work on first? Then you need one solution to prioritize your tasks, manage your time, and meet your deadlines.
+                        </p>
+                        <button class="btn btn-learn-more">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- content section 2 -->
+    <section class="content-section seamless-section ">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-5 text-center text-lg-start mb-4 mb-lg-0">
+                    <h2 class="section-heading  hero-font">Seamless Team<br>Workflow & Efficient</h2>
+                    <p class="section-description">
+                        Do you waste time origanizing sticky notes, searching your emails and apps for to-dos. and figuring out what to work on first? Then you need one solution to prioritize your tasks, manage your time, and meet your deadlines. 
+                    </p>
+                    <div class="d-flex justify-content-center justify-content-lg-start gap-3">
+                        <img src="Images/mac.jpg" alt="App Store icon" class="store-badge">
+                        <img src="Images/play store.jpg" alt="Google Playstore" class="store-badge">
+                    </div>
+                </div>
+                <div class="col-lg-5 text-center">
+                    <img src="Images/task management 1.jpg" alt="Mobile app interface" class="img-fluid content-img">
+                </div>
+            </div>
+        </div>
+    </section> 
+<!-- content section 3 -->
+    <section class="trust-section text-center">
+        <div class="container">
+            <h2 class="mb-5">Trust us and feel free to try our service</h2>
+
+            <div class="d-flex justify-content-center align-items-center gap-4 flex-wrap trust-wrapper">
+                <img src="Images/girl image one.jpg" alt="User1" class="trsut-img small-left">
+                <div class="trust-number">100&nbsp;000</div>
+                <img src="Images/girl image 2.jpg" alt="User2" class="trsut-img big-right">
+            </div>
+
+            <div class="separator"></div>
+        </div>
+    </section>
+
+    <hr class="footer-separator">
+
+    <!-- footer section -->
+    <footer class="footer-section text-center">
+        <div class="container">
+            <h2 class="footer-title">Get better work done</h2>
+            <p class="footer-subtitle">
+                See why millions of people across 195 countries<br>use Dash.
+
+            <form class="footer-email-signup">
+                <input type="email" placeholder="Name@company.com">
+                <button type="submit">Try for free</button>
+            </form>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS CDN links -->
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+         <script src="js/script.js"></script>
+</body>
+</html>
